@@ -1,0 +1,23 @@
+.carousel-inner {
+  width: 100%;
+  height: 56%;
+}
+
+.carousel-inner img {
+  width:100%;
+  height:56vh;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.main_body_bg {
+  background-image: url('https://cdn.glitch.com/43ca6912-1875-4311-9c35-05acfbdfd21a%2Fmosaic-wallpaper-in-black-and-gold-vector.jpg?v=1604156126923');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 1;
+}
+
+.btn {
+  background-color: white;
+}
