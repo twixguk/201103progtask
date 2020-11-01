@@ -21,3 +21,15 @@
 .btn {
   background-color: white;
 }
+
+.mainwrapper {
+  background-color: white;
+}
+
+.media {
+  padding-left: 15px;
+}
+
+.lead {
+  font-size: 25px;
+}
