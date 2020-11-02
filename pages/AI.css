@@ -1,0 +1,21 @@
+body {
+    background-image: url('https://cdn.glitch.com/43ca6912-1875-4311-9c35-05acfbdfd21a%2Fmosaic-wallpaper-in-black-and-gold-vector.jpg?v=1604156126923');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 1;
+}
+
+.mainwrapper {
+    
+}
+
+.mainimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.introduction {
+    background-color: white;
+}
