@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link href="../style.css" rel="stylesheet">
+    <link href="cyber_security.css" rel="stylesheet">
     <title>Cyber Security</title>
   </head>
   <body class="container main_body_bg">
 
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light rounded-bottom sticky-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <a class="navbar-brand" href="#">
         <img src="https://cdn.glitch.com/43ca6912-1875-4311-9c35-05acfbdfd21a%2FTuring%20College%20Logo.png?v=1604153701775" width="50" height="50" class="d-inline-block align-top" loading="lazy">
     </a>
@@ -49,17 +49,140 @@
     </div>
 </nav>
         
+<!--Title-->
+    <div class="container p-3 rounded-bottom" style="background-color: white;">
+        <hr>
+        <h2 class="pl-3 text-center">Cyber Security</h1>
+        <hr>
+    </div>
 
-    <div>
-      
+    <br>
+
+<!--Section 1-->
+    <div class="card p-4">
+        <h5 class="card-title lead font-italic py-2" style="text-align: center;">Cyber Attacks in the Past</h3>
+    
+        <ul class="nav nav-tabs px-3" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Germany</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="tab2-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Norway</a>
+            </li>
+        </ul>
+        <div class="tab-content px-3" id="myTabContent">
+            <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="home-tab">
+                <h6 class="lead pt-4">Lukaskrankenhaus Neuss</h6>
+                <img class="py-2" src="https://lukasneuss.de/images/stories/kliniken/geriatrie/2019_team_geriatrie.jpg">
+                <p class="pt-3">Lukaskrankenhaus Neuss, a public hospital founded in 1911 in Neuss, Germany suffered from a ransomware attack in February 2016, initiated through a social engineering tactic. Error messages were sent to employees and an email address was given to contact, which they did not.</p>
+                <p class="pb-2">While the servers and computer systems were taken offline, staff had to use pen, paper and fax machines to continue their work and high-risk procedures had to be postponed. Hours of data was lost and the handwritten records had to be integrated with the EHR again afterwards. This attack impacted the hospital for months before their workflow could be returned to normal.</p>
+                <div class="card-footer rounded-bottom border">
+                    <small class="text-muted"> Source: <a href="https://rdcu.be/b9Cu0">Argaw ST, Troncoso-Pastoriza JR, Lacey D, Florin M-V, Calcavecchia F, Anderson D, et al. Cybersecurity of Hospitals: discussing the challenges and working towards mitigating the risks. BMC Medical Informatics and Decision Making. 2020 Jul 3;20(1):146.</a></small>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                <h6 class="lead pt-4">South-eastern Norway regional health authority (South-East RHF)</h6>
+                <img class="py-2" src="https://www.helse-sorost.no/PublishingImages/Div%20illustrasjonsbilder/Bannerbilde%20forside%20eng.jpg?RenditionID=8">
+                <p class="pt-2">In January 2018, South-East RHF announced that the PHI and records of nearly 2.9 million people had been compromised. The organisation of specialist hospitals and healthcare services had begun acting to reduce the security risks from the legacy system Windows XP and had been planning to phase it out, the vulnerability was exploited before these security measures were implemented.</p>
+                <p class="pb-2">The motivations were suspected to be targeting patient health data and the organisation's interaction with Norway's armed forces. There were no significant risks in patient safety and hospitals' workflow, but this warned of future attacks on health data and urged for GDPR.</p>
+                <div class="card-footer rounded-bottom border">
+                    <small class="text-muted"> Source: <a href="https://rdcu.be/b9Cu0">Argaw ST, Troncoso-Pastoriza JR, Lacey D, Florin M-V, Calcavecchia F, Anderson D, et al. Cybersecurity of Hospitals: discussing the challenges and working towards mitigating the risks. BMC Medical Informatics and Decision Making. 2020 Jul 3;20(1):146.</a></small>
+                </div>
+            </div>
+        </div>
+        
+    </div>   
+    
+        <br>
+        
+<!--Section 2-->
+    <div class="card p-4">
+        <h5 class="card-title lead font-italic py-2" style="text-align: center;">The Importance of Cyber Security</h3>
+
+        <div class="pb-2" id="accordion">
+
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link btn-block text-left text-warning" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Preventing monetary losses
+                        </button>
+                    </h5>
+                </div>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <p class="card-text">Financial losses are typically attributed to randomware attacks, during which critical medical processes are slowed or become completely inoperable. The workflow is slowed and funds which could have been allocated to the modernisation or the hospital are lost. These factors mean patient care becomes inaccessible.</p>
+                    <p class="card-text">As this attack requires little to no technical skills, the failure to implement basic cyber security protocols such as up-to-date anti-virus software, proper email filtering and regular back-ups can cause devastating losses when threatened with randomware.</p>
+                </div>
+                <div class="card-footer rounded-bottom border">
+                    <small class="text-muted"> Source: <a href="https://www.cisecurity.org/blog/cyber-attacks-in-the-healthcare-sector/">Cyber Attacks: In the Healthcare Sector [Internet]. CIS - Center for Internet Security.</a></small>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link btn-block text-left text-warning" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            Patient safety
+                        </button>
+                    </h5>
+                </div>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    <p class="card-text">When access to medical records and important medical devices means the mission of hospitals to care effectively for patients becomes deterred greatly. Having confidential patient data stolen can lead to major risks if the data is changed.</p>
+                </div>
+                <div class="card-footer rounded-bottom border">
+                    <small class="text-muted"> Source: <a href="https://www.cisecurity.org/blog/cyber-attacks-in-the-healthcare-sector/">Cyber Attacks: In the Healthcare Sector [Internet]. CIS - Center for Internet Security.</a></small>
+                </div>
+            </div>
+
+        </div>
+
     </div>
-    <div class="col-8">
-      
-    </div>
-    <div class="col-4">
-      
+
+    <br>
+
+<!--Section 3-->
+    <div class="card p-4">
+        <h5 class="card-title lead font-italic py-2" style="text-align: center;">More Information</h3>
+        
+        <div class="card-deck px-1 py-1">
+
+            <div class="card">
+                <img class="card-img-top" src="">
+                <div class="card-body">
+                    <h5 class="card-title py-2">Safety Implications of Medical Device Cybersecurity</h5>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="960" height="540" src="https://www.youtube.com/embed/cchwZtr0kOs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <p class="card-text pt-3">Penny Chase, Information Technology and Cyber Security Integrator @ The MITRE Corporation and Margie Zuk, Senior Principal Cybersecurity Engineer @ MITRE discuss the impacts of medical device cyber security and the steps required for the future.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Source: RSA Conference via YouTube</small>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="">
+                <div class="card-body">
+                    <h5 class="card-title py-2">Protecting Medical Devices from Cyberharm</h5>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="960" height="540" src="https://www.youtube.com/embed/EyqwUFJKZo0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <p class="card-text pt-3">Stephanie Domas, Lead Security Engineer @ Battelle’s DeviceSecure® Services discusses the current cybersecurity threats against medical devices and how ethical hackers are helping to mitigate the risk of those threats causing cyberharm.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Source: TEDx Talks via YouTube</small>
+                </div>
+            </div>
+
+        </div>
     </div>    
     
+    <br>
+    <br>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
