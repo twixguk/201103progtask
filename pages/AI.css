@@ -1,3 +1,18 @@
+.navbar {
+    padding: 1.2rem;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar-title {
+    padding-left: 15px;
+}
+
+.navbar-nav li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  
 body {
     background-image: url('https://cdn.glitch.com/43ca6912-1875-4311-9c35-05acfbdfd21a%2Fmosaic-wallpaper-in-black-and-gold-vector.jpg?v=1604156126923');
     background-repeat: no-repeat;
