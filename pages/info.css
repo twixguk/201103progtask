@@ -23,6 +23,7 @@
   height:100%;
   width:100%;
   backface-visibility:hidden;
+  margin-top: 2rem;
 }
 
 .card-back .card-body{
@@ -34,4 +35,19 @@
   top:50%;
   left:50%;
   margin:-15% 0 0 0 -15%;
+}
+
+.navbar {
+  padding: 1.2rem;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.navbar-title {
+  padding-left: 15px;
+}
+
+.navbar-nav li {
+  padding-left: 20px;
+  padding-right: 20px;
 }
